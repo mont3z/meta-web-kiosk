@@ -1,7 +1,7 @@
 #!/bin/sh
 
-KICKFILE="/home/root/.config/midori/kick-new-midori-config"
-CONFIGFILE="/home/root/.config/midori/config"
+KICKFILE="/home/root/.config/kick-new-epiphany-config"
+CONFIGFILE="/home/root/.config/epiphany-config"
 
 usage()
 {
