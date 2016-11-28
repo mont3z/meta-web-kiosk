@@ -31,7 +31,7 @@ ALTERNATIVE_PRIORITY = "90"
 
 do_install() {
         install -d ${D}/${bindir}
-	install -d ${D}/home/${USER}/.config
+	install -d ${D}/home/${USER}/.config/epiphany
         install -m 0755 ${S}/epiphany-session ${D}/${bindir}
         install -m 0755 ${S}/autostart-epiphany.sh ${D}/${bindir}
 	install -m 0755 ${S}/change_epiphany_url.sh ${D}/${bindir}
